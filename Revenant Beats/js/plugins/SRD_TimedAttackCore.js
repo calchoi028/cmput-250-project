@@ -792,19 +792,4 @@ function TimedAttackSystem() {
 		return eval(_.myHeight);
 	};
 
-<<<<<<< HEAD
-	var Alias_Scene_Map_createAllWindows = Scene_Map.prototype.createAllWindows;
-	Scene_Map.prototype.createAllWindows = function() {
-		Alias_Scene_Map_createAllWindows.call(this);
-		this.createTimedAttackSystem();
-	};
-
-	Scene_Map.prototype.createTimedAttackSystem = function() {
-		this._timedAttackSystem = new TimedAttackSystem();
-		this.addChild(this._timedAttackSystem);
-	};
-
 })(SRD.TimedAttack);
-=======
-})(SRD.TimedAttack);
->>>>>>> 7a5e325c8964db334e026317cb08f5a233a1321b
