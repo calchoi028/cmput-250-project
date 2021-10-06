@@ -1366,7 +1366,7 @@ FileManager.getFileList = function(section, folder) {
 	if(!Utils.isNwjs()) return [];
 	const result = [];
 	const fs = require('fs');
-	const location = this.filePath(`img/SRDPlugins/${section}/${folder}/`);
+	const location = this.filePath(`img/SumRndmDde/${section}/${folder}/`);
 	const files = fs.readdirSync(location);
 	for(let i = 0; i < files.length; i++) {
 		const file = location + files[i];
