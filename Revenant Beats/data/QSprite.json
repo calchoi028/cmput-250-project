@@ -12,7 +12,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          0
+          1
         ]
       },
       "idle1": {
