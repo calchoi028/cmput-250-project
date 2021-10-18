@@ -3880,7 +3880,7 @@ function Game_CharacterAgro() {
     if (this.battler().gold() > 0) {
       x = this.x + (Math.random() / 2) - (Math.random() / 2);
       y = this.y + (Math.random() / 2) - (Math.random() / 2);
-      loot.push(QABSManager.createGold(x, y, this.battler().gold()));
+      loot.push(QABSManager.createGold(x, y, 1));
     }
     if (this.battler().enemy().meta.autoLoot) {
       var prevAoeLoot = QABS.aoeLoot;
