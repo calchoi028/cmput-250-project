@@ -1,18 +1,18 @@
 {
-  "Revenant": {
-    "name": "Revenant",
-    "cols": 3,
-    "rows": 3,
+  "Flay": {
+    "name": "Flay",
+    "cols": 2,
+    "rows": 2,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "..\\img\\characters\\%Revenant-Flay.png",
+    "sampleImg": "D:\\RPGMaker\\Revenant Beats\\cmput-250-project\\Revenant Beats\\img\\characters\\QFlay-RB.png",
     "poses": {
       "default": {
         "name": "default",
         "speed": 10,
         "adjust": false,
         "pattern": [
-          1
+          3
         ]
       },
       "idle1": {
@@ -20,7 +20,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          5
+          3
         ]
       },
       "idle2": {
@@ -28,7 +28,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          0
+          3
         ]
       },
       "idle3": {
@@ -36,7 +36,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          4
+          3
         ]
       },
       "idle4": {
@@ -52,7 +52,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          3
+          1
         ]
       },
       "idle7": {
@@ -60,7 +60,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          7
+          0
         ]
       },
       "idle8": {
@@ -68,7 +68,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          1
+          0
         ]
       },
       "idle9": {
@@ -76,7 +76,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          6
+          0
         ]
       },
       "move1": {
@@ -84,7 +84,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          5
+          3
         ]
       },
       "move2": {
@@ -92,7 +92,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          0
+          3
         ]
       },
       "move3": {
@@ -100,7 +100,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          4
+          3
         ]
       },
       "move4": {
@@ -116,7 +116,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          3
+          1
         ]
       },
       "move7": {
@@ -124,7 +124,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          7
+          0
         ]
       },
       "move8": {
@@ -132,7 +132,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          1
+          0
         ]
       },
       "move9": {
@@ -140,7 +140,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          6
+          0
         ]
       },
       "dash1": {
