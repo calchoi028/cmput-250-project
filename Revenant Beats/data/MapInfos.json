@@ -1,9 +1,5 @@
 [
 null,
-<<<<<<< HEAD
 {"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142},
-{"id":2,"expanded":false,"name":"MAP002","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1013.1428571428571}
-=======
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142}
->>>>>>> 8ac199a3374b71bb290f0b65f55063ee61147392
+{"id":2,"expanded":false,"name":"MAP002","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":776.5714285714286}
 ]
