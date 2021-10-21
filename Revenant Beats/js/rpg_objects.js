@@ -5550,9 +5550,11 @@ Game_Map.prototype.setupEvents = function() {
             this._events[i] = new Game_Event(this._mapId, i);
         }
     }
-    this._commonEvents = this.parallelCommonEvents().map(function(commonEvent) {
-        return new Game_CommonEvent(commonEvent.id);
-    });
+    if (this._commonEvents.length == 0) { // Calvin Change (if statement)
+        this._commonEvents = this.parallelCommonEvents().map(function(commonEvent) {
+            return new Game_CommonEvent(commonEvent.id);
+        });
+    }
     this.refreshTileEvents();
 };
 
