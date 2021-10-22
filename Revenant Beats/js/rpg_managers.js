@@ -1326,6 +1326,11 @@ AudioManager.fadeInBgs = function(duration) {
     }
 };
 
+// CALVIN CHANGES
+AudioManager.getBgmSeek = function() {
+    return this._bgmBuffer ? this._bgmBuffer.seek() : 0
+}
+
 AudioManager.playMe = function(me) {
     this.stopMe();
     if (me.name) {
