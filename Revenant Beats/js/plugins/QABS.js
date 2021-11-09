@@ -1493,6 +1493,11 @@ function Skill_Sequencer() {
         this._skill.animationTarget = Number(action[1]) || 0;
         break;
       }
+      // Calvin Changes!
+      case 'playerhit': {
+        this.playerHit();
+        break;
+      }
     }
   };
 
@@ -1531,6 +1536,10 @@ function Skill_Sequencer() {
       }
     }
   };
+
+  Skill_Sequencer.prototype.playerHit = function() {
+    $gameVariables.setValue(20, 5);
+  }
 
   Skill_Sequencer.prototype.userCasting = function(action) {
     if (!this._skill.forced) {
