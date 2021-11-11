@@ -865,9 +865,9 @@
   "Lizard": {
     "name": "Lizard",
     "cols": 2,
-    "rows": 1,
+    "rows": 2,
     "anchorX": 0.5,
-    "anchorY": 0.65,
+    "anchorY": 0.64,
     "sampleImg": "C:\\Users\\Ryden\\Documents\\School\\Fall 2021\\CMPUT 250\\Revenant Beats\\Revenant Beats\\img\\characters\\QLizard-RB.png",
     "poses": {
       "default": {
@@ -907,7 +907,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          0
+          2
         ]
       },
       "idle6": {
@@ -915,7 +915,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          1
+          3
         ]
       },
       "idle7": {
@@ -979,7 +979,7 @@
         "speed": 10,
         "adjust": false,
         "pattern": [
-          1
+          3
         ]
       },
       "move7": {
