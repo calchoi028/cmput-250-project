@@ -237,12 +237,12 @@ ConfigManager.getCustomData = function(id) {
 };
 
 ConfigManager.setCustomData = function(id, value) {
+	this._customData[id] = value;
 	try {
 		eval(_.data[id]['On Change Eval']);
 	} catch(e) {
 		console.error(e);
 	}
-	this._customData[id] = value;
 	if($gameMap) {
 		$gameMap.requestRefresh();
 	}
