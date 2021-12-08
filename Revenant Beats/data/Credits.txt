@@ -1,0 +1,60 @@
+<block:-1,-2.5,255,255,offbot,center>
+\{\{\{\{\c[30]CREDITS\c
+
+
+\{\c[31]Developers\c
+
+Althea Lao-an - Artist
+Tracy Tran - Artist
+
+Noah Jamaldin - Audio
+
+Aaron Diep - Programmer
+Calvin Choi - Programmer
+Ryden Graham - Programmer
+
+Mzaham Bajabir - Writer
+
+
+\{\c[31]Special Thanks\c
+Johnas Wong
+Dr. Nathan Sturtevant
+
+
+\{\c[31]Thank you to all Beta Playtesters!\c
+
+
+\{\c[31]Plugin Credits\c
+Chaucer
+Dan "Liquidize" Deptula
+Dingk
+Galv
+Hudell - www.hudell.com
+Munokura
+Quxios
+RM CoreScript team
+Sasuke KANNAZUKI
+SumRndmDde - http://sumrndm.site/
+Yoji Ojima
+</block>
+
+<block:-1,-3,255,255,offbot,center>
+\c[23]TESTING\c
+\{\{dadADAD
+\{DASdd
+ADS
+ADS
+ADS
+ADSa
+ads
+dasda
+sad
+</block>
+
+
+
+creators
+playtestors
+prof
+ep
+plugins
