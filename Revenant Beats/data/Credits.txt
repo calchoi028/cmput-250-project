@@ -1,4 +1,4 @@
-<block:-1,-2.5,255,255,offbot,center,BLACK>
+<block:-1,-2,255,255,offbot,center,BLACK>
 \{\{\{\{\c[30]CREDITS\c
 
 
@@ -36,4 +36,14 @@ Yoji Ojima
 
 
 \{\c[31]Special thank you to all Beta Playtesters!\c
+</block>
+
+<block:-1,-2.5,255,255,offbot,center,END>
+
+
+
+
+
+
+
 </block>
