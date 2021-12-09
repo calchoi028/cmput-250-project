@@ -3864,7 +3864,8 @@ function Game_CharacterAgro() {
     }
     if (this._agro.has(0)) {
       var exp = this.battler().exp();
-      $gamePlayer.battler().gainExp(exp);
+      // we don't want xp gain
+      // $gamePlayer.battler().gainExp(exp);
       if (exp > 0) {
         // override exp drop with loot drop delay
         this.setupLoot(exp);
