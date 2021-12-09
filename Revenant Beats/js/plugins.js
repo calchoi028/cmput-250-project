@@ -25,7 +25,7 @@ var $plugins =
 {"name":"AudioStreaming","status":true,"description":"Load audio faster and use only ogg files.","parameters":{"mode":"10","deleteM4a":"false"}},
 {"name":"MNKR_GoldIcon","status":true,"description":"Replace currency unit display with icon","parameters":{"Gold Icon":"314"}},
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"10","screenWidth":"1152","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"dingk_AnimationVariance","status":false,"description":"[v0.4.1] Allow randomized variations and custom movement in animations.","parameters":{"Animation Move Rate":"0","Global Animation Variance":"[]"}},
+{"name":"dingk_AnimationVariance","status":true,"description":"[v0.4.1] Allow randomized variations and custom movement in animations.","parameters":{"Animation Move Rate":"0","Global Animation Variance":"[]"}},
 {"name":"OrangeMouseData","status":true,"description":"Will give you access to mouse's X, Y, TileX, TileY and Down Status for both left and right buttons <OrangeMouseData>","parameters":{"variableMouseX":"0","variableMouseY":"0","variableMouseTileX":"8","variableMouseTileY":"9","switchLeftButtonDown":"0","switchRightButtonDown":"0","switchMiddleButtonDown":"0"}},
 {"name":"ButtonPressed","status":true,"description":"","parameters":{}},
 {"name":"AnimatedIcons","status":false,"description":"","parameters":{}},
