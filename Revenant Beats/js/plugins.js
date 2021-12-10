@@ -14,7 +14,7 @@ var $plugins =
 {"name":"QABS+Skillbar","status":true,"description":"<QABSSkillbar>\r\nQABS Addon: Adds a skillbar","parameters":{"Show Unassigned Keys":"false","Default visibility":"true"}},
 {"name":"========================","status":true,"description":"","parameters":{}},
 {"name":"QPathfind","status":true,"description":"<QPathfind>\r\nA* Pathfinding algorithm","parameters":{"Diagonals":"false","Any Angle":"true","Intervals":"200","Smart Wait":"60","Dash on Mouse":"false"}},
-{"name":"QSight","status":true,"description":"<QSight>\r\nReal time line of sight","parameters":{"See Through Terrain":"[]","Show":"true"}},
+{"name":"QSight","status":true,"description":"<QSight>\r\nReal time line of sight","parameters":{"See Through Terrain":"[\"1\"]","Show":"true"}},
 {"name":"QPopup","status":true,"description":"<QPopup>\r\nLets you create popups in the map or on screen","parameters":{"Presets":"[]"}},
 {"name":"QSprite","status":true,"description":"<QSprite>\r\nLets you configure Spritesheets","parameters":{"File Name Identifier":"Q{config}-","Random Idle Interval":"","Use New Adjust":"true"}},
 {"name":"========================","status":true,"description":"","parameters":{}},
