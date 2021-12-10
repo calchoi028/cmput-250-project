@@ -4950,13 +4950,13 @@
       }
     }
   },
-  "Fairy Statue": {
-    "name": "Fairy Statue",
+  "StatueTraining": {
+    "name": "StatueTraining",
     "cols": 1,
     "rows": 1,
-    "anchorX": 0.48,
-    "anchorY": 0.74,
-    "sampleImg": "D:\\RPGMaker\\Revenant Beats\\cmput-250-project\\Revenant Beats\\img\\characters\\StatueTraining.png",
+    "anchorX": 0.5,
+    "anchorY": 0.9,
+    "sampleImg": "D:\\RPGMaker\\Revenant Beats\\cmput-250-project\\Revenant Beats\\img\\characters\\QStatueTraining-RB.png",
     "poses": {
       "default": {
         "name": "default",
