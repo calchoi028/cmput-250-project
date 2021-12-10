@@ -2,9 +2,9 @@
 null,
 {"id":1,"expanded":false,"name":"Opening Options","order":14,"parentId":0,"scrollX":878.6666666666666,"scrollY":494.6666666666667},
 {"id":2,"expanded":false,"name":"FairyWorldSpawn","order":15,"parentId":0,"scrollX":790.8,"scrollY":445.2},
-{"id":3,"expanded":false,"name":"FairyWorldTraining","order":16,"parentId":0,"scrollX":781.1999999999999,"scrollY":474},
-{"id":4,"expanded":false,"name":"FairyWorld1","order":17,"parentId":0,"scrollX":1138.8,"scrollY":435.59999999999997},
-{"id":5,"expanded":false,"name":"FairyWorld2","order":18,"parentId":0,"scrollX":781.1999999999999,"scrollY":445.2},
+{"id":3,"expanded":false,"name":"FairyWorldTraining","order":16,"parentId":0,"scrollX":781.1999999999999,"scrollY":445.2},
+{"id":4,"expanded":false,"name":"FairyWorld1","order":17,"parentId":0,"scrollX":976.5,"scrollY":586.5},
+{"id":5,"expanded":false,"name":"FairyWorld2","order":18,"parentId":0,"scrollX":976.5,"scrollY":556.5},
 {"id":6,"expanded":false,"name":"FairyWorld1OLD","order":1,"parentId":0,"scrollX":816,"scrollY":800},
 {"id":7,"expanded":false,"name":"FairyWorld2OLD","order":2,"parentId":0,"scrollX":868,"scrollY":494.6666666666667},
 {"id":8,"expanded":false,"name":"FairyWorld3OLD","order":3,"parentId":0,"scrollX":816,"scrollY":800},
@@ -18,5 +18,5 @@ null,
 {"id":16,"expanded":false,"name":"Volcano2","order":11,"parentId":0,"scrollX":1518.6666666666667,"scrollY":854.6666666666666},
 {"id":17,"expanded":false,"name":"Volcano3","order":12,"parentId":0,"scrollX":781.1999999999999,"scrollY":854.4},
 null,
-{"id":19,"expanded":false,"name":"FairyWorld3","order":19,"parentId":0,"scrollX":781.1999999999999,"scrollY":673.1999999999999}
+{"id":19,"expanded":false,"name":"FairyWorld3","order":19,"parentId":0,"scrollX":781.1999999999999,"scrollY":445.2}
 ]
