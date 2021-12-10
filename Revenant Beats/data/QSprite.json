@@ -2,10 +2,10 @@
   "Flay": {
     "name": "Flay",
     "cols": 5,
-    "rows": 5,
+    "rows": 6,
     "anchorX": 0.5,
     "anchorY": 1,
-    "sampleImg": "D:\\RPGMaker\\Revenant Beats\\cmput-250-project\\Revenant Beats\\img\\characters\\QFlay-RB.png",
+    "sampleImg": "C:\\Users\\Ryden\\Documents\\School\\Fall 2021\\CMPUT 250\\Revenant Beats\\Revenant Beats\\img\\characters\\QFlay-RB.png",
     "poses": {
       "default": {
         "name": "default",
@@ -237,6 +237,70 @@
         "adjust": false,
         "pattern": [
           6
+        ]
+      },
+      "atk1": {
+        "name": "atk1",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          28
+        ]
+      },
+      "atk2": {
+        "name": "atk2",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          28
+        ]
+      },
+      "atk3": {
+        "name": "atk3",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          28
+        ]
+      },
+      "atk4": {
+        "name": "atk4",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          27
+        ]
+      },
+      "atk6": {
+        "name": "atk6",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          26
+        ]
+      },
+      "atk7": {
+        "name": "atk7",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          29
+        ]
+      },
+      "atk8": {
+        "name": "atk8",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          29
+        ]
+      },
+      "atk9": {
+        "name": "atk9",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          29
         ]
       }
     }
