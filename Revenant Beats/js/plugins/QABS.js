@@ -3879,7 +3879,7 @@ function Game_CharacterAgro() {
     if (!this._dontErase) this.erase();
   };
 
-  Game_Event.prototype.setupLoot = function(exp) {
+  Game_Event.prototype.setupLoot = function() {
     var x, y;
     var loot = [];
     this.battler().makeDropItems().forEach(function(item) {
@@ -3888,22 +3888,23 @@ function Game_CharacterAgro() {
       var type = 0;
       if (DataManager.isWeapon(item)) type = 1;
       if (DataManager.isArmor(item)) type = 2;
-      setTimeout(function(){
-        loot.push(QABSManager.createItem(x, y, item.id, type));
-    }, exp);
+      loot.push(QABSManager.createItem(x, y, item.id, type));
     }.bind(this));
     if (this.battler().gold() > 0) {
       x = this.x + (Math.random() / 2) - (Math.random() / 2);
       y = this.y + (Math.random() / 2) - (Math.random() / 2);
       loot.push(QABSManager.createGold(x, y, 1));
     }
-    if (this.battler().enemy().meta.autoLoot) {
-      var prevAoeLoot = QABS.aoeLoot;
-      QABS.aoeLoot = false;
-      loot.forEach(function(loot) {
-        loot.collectDrops();
-      });
-    }
+    // if (this.battler().enemy().meta.autoLoot) {
+    //   var prevAoeLoot = QABS.aoeLoot;
+    //   QABS.aoeLoot = false;
+    //   loot.forEach(function(loot) {
+    //     loot.collectDrops();
+    //   });
+    // }
+    loot.forEach(function(loot) {
+      loot.collectDrops();
+    });
   };
 
   Game_Event.prototype.onTargetingEnd = function() {
@@ -4022,9 +4023,9 @@ function Game_Loot() {
   };
 
   Game_Loot.prototype.collectDrops = function() {
-    if (QABS.aoeLoot) {
-      return this.aoeCollect();
-    }
+    // if (QABS.aoeLoot) {
+    //   return this.aoeCollect();
+    // }
     if (this._loot) $gameParty.gainItem(this._loot, 1);
     if (this._gold) $gameParty.gainGold(this._gold);
     var string = this._gold ? String(this._gold) : this._loot.name;
