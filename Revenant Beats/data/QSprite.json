@@ -5453,5 +5453,59 @@
         ]
       }
     }
+  },
+  "DragonSoul": {
+    "name": "DragonSoul",
+    "cols": 1,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\Ryden\\Documents\\School\\Fall 2021\\CMPUT 250\\Revenant Beats\\Revenant Beats\\img\\characters\\QDragonSoul-RB.png",
+    "poses": {
+      "default": {
+        "name": "default",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      }
+    }
+  },
+  "CassetteReader": {
+    "name": "CassetteReader",
+    "cols": 1,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\Ryden\\Documents\\School\\Fall 2021\\CMPUT 250\\Revenant Beats\\Revenant Beats\\img\\characters\\QCassetteReader-RB.png",
+    "poses": {
+      "default": {
+        "name": "default",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      }
+    }
+  },
+  "Amplifier": {
+    "name": "Amplifier",
+    "cols": 1,
+    "rows": 1,
+    "anchorX": 0.5,
+    "anchorY": 1,
+    "sampleImg": "C:\\Users\\Ryden\\Documents\\School\\Fall 2021\\CMPUT 250\\Revenant Beats\\Revenant Beats\\img\\characters\\QAmplifier-RB.png",
+    "poses": {
+      "default": {
+        "name": "default",
+        "speed": 10,
+        "adjust": false,
+        "pattern": [
+          0
+        ]
+      }
+    }
   }
 }
